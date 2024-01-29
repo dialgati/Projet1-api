@@ -1,6 +1,6 @@
 // const express = require("express");
 // // const connectDB = require("./config/db");
-// const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 // const EmployeeModel = require('./models/Employee')
 // // const port = process.env.PORT || 5000; // Utiliser le port défini dans les variables d'environnement ou le port 5000 par défaut
 // require('dotenv').config();
