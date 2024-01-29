@@ -1,0 +1,97 @@
+*{
+    font-family: roboto, sans-serif;
+}
+.contenu{
+    background-color: gray !important;
+    width: 100%;
+    height: 700px !important;
+}
+.inscription .bas{
+    padding-top: 13vh;
+}
+
+.inscription {
+    background-image: url(../src/images/background.jpg);
+    width: 100% !important;
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sidebar {
+    background-image: url(../src/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.sidebar .change:hover{
+  width: 110%;
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  height: 30px;
+  background-color: #ffffffcc;
+  color: #4C5053!important;
+}
+@media (max-width: 500px) {
+.sidebar-masque{
+    display: none;
+}
+   .navbar{
+    position: sticky;
+   }
+.template {
+    display: flex;
+    justify-content: center;
+}
+.contentNavbar{
+    background: #F0F0F0 !important;
+     height: 20vh !important;
+}
+
+
+ }
+.inscription .form-control{
+ border: none !important;
+ border-radius: none !important;
+ border-bottom: 1px solid gray !important;
+}
+.gris{
+ background: #474A4D !important;
+ color: #fff !important; 
+}
+.gris:hover{
+ background: #0cbbb2!important;
+ color: #fff!important; 
+}
+.inscription form-control:focus{
+    outline: none !important;
+}
+.navbar .form-control:focus{
+    outline: none;
+}
+.sidebar .bas{
+    padding-top: 2vh;
+}
+.reduire{
+    padding-top: 9vh;
+}
+.truc .ligne{
+   border: 1.333px solid rgba(255, 255, 255, 0.13);
+   width: 100px;
+}
+.logo{
+    width: 40px;
+}
+.sidebar .profil{
+    padding-top: 40vh;
+}
+.avatar{
+    width: 30vh;
+}
+.modal .tiret{
+    border: 1px dashed rgba(128, 128, 128, 0.596);
+}
+.contentNavbar{
+    background: #F0F0F0 !important;
+    height: 150vh !important;
+}
