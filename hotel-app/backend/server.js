@@ -37,6 +37,9 @@
 // // Lancer le serveur
 // app.listen(3000, () => console.log("Le serveur a démarré au port " + 3000));
 const express = require ('express')
+const mongoose = require('mongoose');
+mongoose.set('strictQuery', true); // Définit l'option strictQuery sur
+
 const app = express();
 const cors = require ('cors');
 require('dotenv').config();
